@@ -1,0 +1,75 @@
+"table_name","ordinal_position","column_name","data_type","udt_name","is_nullable","character_maximum_length","numeric_precision","numeric_scale"
+"dataset_sl_cost",1,"date","date","date","YES",,,
+"dataset_sl_cost",2,"country","character varying","varchar","YES",9,,
+"dataset_sl_cost",3,"network","character varying","varchar","YES",14,,
+"dataset_sl_cost",4,"mapped_platform","character varying","varchar","YES",255,,
+"dataset_sl_cost",5,"cost","double precision","float8","YES",,53,
+"dataset_sl_econ_spend_hc",1,"uid","bigint","int8","YES",,64,0
+"dataset_sl_econ_spend_hc",2,"platform","character varying","varchar","YES",256,,
+"dataset_sl_econ_spend_hc",3,"event_timestamp","bigint","int8","YES",,64,0
+"dataset_sl_econ_spend_hc",4,"dt","date","date","YES",,,
+"dataset_sl_econ_spend_hc",5,"s_index","bigint","int8","YES",,64,0
+"dataset_sl_econ_spend_hc",6,"s_time","bigint","int8","YES",,64,0
+"dataset_sl_econ_spend_hc",7,"gem_amount","bigint","int8","YES",,64,0
+"dataset_sl_econ_spend_hc",8,"gold_amount","bigint","int8","YES",,64,0
+"dataset_sl_econ_spend_hc",9,"stone_amount","bigint","int8","YES",,64,0
+"dataset_sl_econ_spend_hc",10,"chalice_amount","bigint","int8","YES",,64,0
+"dataset_sl_econ_spend_hc",11,"type","character varying","varchar","YES",6,,
+"dataset_sl_econ_spend_hc",12,"level","character varying","varchar","YES",256,,
+"dataset_sl_econ_spend_hc",13,"amount","bigint","int8","YES",,64,0
+"dataset_sl_econ_spend_hc",14,"app_version","character varying","varchar","YES",256,,
+"dataset_sl_endgame",1,"uid","bigint","int8","YES",,64,0
+"dataset_sl_endgame",2,"platform","character varying","varchar","YES",256,,
+"dataset_sl_endgame",3,"event_timestamp","bigint","int8","YES",,64,0
+"dataset_sl_endgame",4,"dt","date","date","YES",,,
+"dataset_sl_endgame",5,"s_index","bigint","int8","YES",,64,0
+"dataset_sl_endgame",6,"s_time","bigint","int8","YES",,64,0
+"dataset_sl_endgame",7,"gem_amount","bigint","int8","YES",,64,0
+"dataset_sl_endgame",8,"gold_amount","bigint","int8","YES",,64,0
+"dataset_sl_endgame",9,"stone_amount","bigint","int8","YES",,64,0
+"dataset_sl_endgame",10,"chalice_amount","bigint","int8","YES",,64,0
+"dataset_sl_endgame",11,"type","character varying","varchar","YES",256,,
+"dataset_sl_endgame",12,"level","character varying","varchar","YES",256,,
+"dataset_sl_endgame",13,"level_index","bigint","int8","YES",,64,0
+"dataset_sl_endgame",14,"duration","double precision","float8","YES",,53,
+"dataset_sl_endgame",15,"score","bigint","int8","YES",,64,0
+"dataset_sl_endgame",16,"merge_count","bigint","int8","YES",,64,0
+"dataset_sl_endgame",17,"moves_count","bigint","int8","YES",,64,0
+"dataset_sl_endgame",18,"coin_earned","bigint","int8","YES",,64,0
+"dataset_sl_endgame",19,"gem_earned","bigint","int8","YES",,64,0
+"dataset_sl_endgame",20,"app_version","character varying","varchar","YES",256,,
+"dataset_sl_install",1,"uid","bigint","int8","YES",,64,0
+"dataset_sl_install",2,"platform","character varying","varchar","YES",256,,
+"dataset_sl_install",3,"event_timestamp","bigint","int8","YES",,64,0
+"dataset_sl_install",4,"dt","date","date","YES",,,
+"dataset_sl_install",5,"country","character varying","varchar","YES",9,,
+"dataset_sl_install",6,"network","character varying","varchar","YES",14,,
+"dataset_sl_install",7,"app_version","character varying","varchar","YES",256,,
+"dataset_sl_login",1,"uid","bigint","int8","YES",,64,0
+"dataset_sl_login",2,"platform","character varying","varchar","YES",256,,
+"dataset_sl_login",3,"event_timestamp","bigint","int8","YES",,64,0
+"dataset_sl_login",4,"dt","date","date","YES",,,
+"dataset_sl_login",5,"s_index","bigint","int8","YES",,64,0
+"dataset_sl_login",6,"app_version","character varying","varchar","YES",256,,
+"dataset_sl_revenue",1,"uid","bigint","int8","YES",,64,0
+"dataset_sl_revenue",2,"platform","character varying","varchar","YES",256,,
+"dataset_sl_revenue",3,"event_timestamp","bigint","int8","YES",,64,0
+"dataset_sl_revenue",4,"dt","date","date","YES",,,
+"dataset_sl_revenue",5,"s_index","bigint","int8","YES",,64,0
+"dataset_sl_revenue",6,"s_time","bigint","int8","YES",,64,0
+"dataset_sl_revenue",7,"usd_revenue","double precision","float8","YES",,53,
+"dataset_sl_revenue",8,"app_version","character varying","varchar","YES",256,,
+"dataset_sl_startgame",1,"uid","bigint","int8","YES",,64,0
+"dataset_sl_startgame",2,"platform","character varying","varchar","YES",256,,
+"dataset_sl_startgame",3,"event_timestamp","bigint","int8","YES",,64,0
+"dataset_sl_startgame",4,"dt","date","date","YES",,,
+"dataset_sl_startgame",5,"s_index","bigint","int8","YES",,64,0
+"dataset_sl_startgame",6,"s_time","bigint","int8","YES",,64,0
+"dataset_sl_startgame",7,"gem_amount","bigint","int8","YES",,64,0
+"dataset_sl_startgame",8,"gold_amount","bigint","int8","YES",,64,0
+"dataset_sl_startgame",9,"stone_amount","bigint","int8","YES",,64,0
+"dataset_sl_startgame",10,"chalice_amount","bigint","int8","YES",,64,0
+"dataset_sl_startgame",11,"type","character varying","varchar","YES",256,,
+"dataset_sl_startgame",12,"level","character varying","varchar","YES",256,,
+"dataset_sl_startgame",13,"level_index","bigint","int8","YES",,64,0
+"dataset_sl_startgame",14,"app_version","character varying","varchar","YES",256,,
